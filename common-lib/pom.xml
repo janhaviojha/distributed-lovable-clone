@@ -8,7 +8,7 @@
 		<version>4.0.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.janhavi.distributed_lovable_clone</groupId>
+	<groupId>com.janhavi.distributed-lovable-clone</groupId>
 	<artifactId>common-lib</artifactId>
 	<version>1.0.0</version>
 	<name>common-lib</name>
