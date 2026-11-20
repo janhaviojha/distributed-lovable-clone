@@ -1,4 +1,4 @@
-package repository;
+package com.janhavi.distributed_lovable_clone.account_service.repository;
 
 import com.janhavi.distributed_lovable_clone.account_service.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
