@@ -1,0 +1,20 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: account-service
+  config:
+    import: "optional:configserver:http://localhost:8888"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lovable_account
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update   # fine for dev; use Flyway later
+    open-in-view: false
+
+jwt:
+  secret: change-me-to-a-long-random-string-at-least-32-chars
+  expiration-minutes: 60

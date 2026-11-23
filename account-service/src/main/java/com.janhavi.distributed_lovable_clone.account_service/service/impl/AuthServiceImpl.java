@@ -1,9 +1,9 @@
 package com.janhavi.distributed_lovable_clone.account_service.service.impl;
 
-import com.janhavi.distributed_lovable_clone.account_service.dto.AuthResponse;
-import com.janhavi.distributed_lovable_clone.account_service.dto.LoginRequest;
-import com.janhavi.distributed_lovable_clone.account_service.dto.SignupRequest;
-import com.janhavi.distributed_lovable_clone.account_service.dto.UserProfileResponse;
+import com.janhavi.distributed_lovable_clone.account_service.dto.auth.AuthResponse;
+import com.janhavi.distributed_lovable_clone.account_service.dto.auth.LoginRequest;
+import com.janhavi.distributed_lovable_clone.account_service.dto.auth.SignupRequest;
+import com.janhavi.distributed_lovable_clone.account_service.dto.auth.UserProfileResponse;
 import com.janhavi.distributed_lovable_clone.account_service.entity.User;
 import com.janhavi.distributed_lovable_clone.account_service.mapper.UserMapper;
 import com.janhavi.distributed_lovable_clone.account_service.service.AuthService;
@@ -20,7 +20,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
-import repository.UserRepository;
+import com.janhavi.distributed_lovable_clone.account_service.repository.UserRepository;
 
 import java.util.ArrayList;
 
