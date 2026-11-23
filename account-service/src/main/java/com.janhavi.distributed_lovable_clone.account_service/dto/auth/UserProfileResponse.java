@@ -1,4 +1,4 @@
-package com.janhavi.distributed_lovable_clone.account_service.dto;
+package com.janhavi.distributed_lovable_clone.account_service.dto.auth;
 
 import com.janhavi.distributed_lovable_clone.account_service.entity.User;
 

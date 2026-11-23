@@ -1,8 +1,8 @@
 package com.janhavi.distributed_lovable_clone.account_service.mapper;
 
 
-import com.janhavi.distributed_lovable_clone.account_service.dto.SignupRequest;
-import com.janhavi.distributed_lovable_clone.account_service.dto.UserProfileResponse;
+import com.janhavi.distributed_lovable_clone.account_service.dto.auth.SignupRequest;
+import com.janhavi.distributed_lovable_clone.account_service.dto.auth.UserProfileResponse;
 import com.janhavi.distributed_lovable_clone.account_service.entity.User;
 import com.janhavi.distributed_lovable_clone.common_lib.dto.UserDto;
 import com.janhavi.distributed_lovable_clone.common_lib.security.JwtUserPrincipal;
