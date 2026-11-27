@@ -31,8 +31,8 @@ public class AuthController {
     }
 
      // X-User-Id is set by the API Gateway after JWT verification
-    @GetMapping("/users/me")
-    public UserProfileResponse me(@RequestHeader("X-User-Id") Long userId) { return authService.me(userId); }
+    // @GetMapping("/users/me")
+    // public UserProfileResponse me(@RequestHeader("X-User-Id") Long userId) { return authService.me(userId); }
 
 }
 
